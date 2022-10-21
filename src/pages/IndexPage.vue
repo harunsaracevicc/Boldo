@@ -112,7 +112,7 @@ export default defineComponent({
   margin-right: auto;
   position: relative;
   width: 100%;
-  max-width: 12git 00px !important;
+  max-width: 1200px !important;
 }
 .navigation {
   max-height: 42px !important;
