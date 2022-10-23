@@ -14,7 +14,7 @@
             </q-item>
 
             <q-item clickable>
-              <q-item-section>Services </q-item-section>
+              <q-item-section>Services</q-item-section>
             </q-item>
 
             <q-item clickable>
@@ -137,77 +137,93 @@
     </q-page-container>
   </section>
 
-  <section class="main-section">
-    <q-page class="bg-white">
-      <q-page-container>
-        <div class="container">
-          <div class="heading-text">
-            <div class="flex column justify-center text-center">
-              <p class="text-subtitle2 text-weight-light">Our Services</p>
-              <p class="text-h3 text-weight-light">
-                Handshake infographic mass market <br />
-                crowdfunding iteration.
-              </p>
-            </div>
-          </div>
-          <div class="feature-cards flex justify-between q-pt-xl q-ma-xl">
-            <q-card flat class="my-card">
-              <img src="./../../public/images/card-image1.png" />
-
-              <q-card-section>
-                <div class="text-h6">Our Changing Planet</div>
-              </q-card-section>
-
-              <q-card-section class="q-pt-none text-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                dignissimos qui fugiat.
-              </q-card-section>
-
-              <q-card-section>
-                <q-btn text-primary no-caps flat dense size="lg" href="/">
-                  Explore page ->
-                </q-btn>
-              </q-card-section>
-            </q-card>
-
-            <q-card flat class="my-card">
-              <img src="./../../public/images/card-image2.png" />
-
-              <q-card-section>
-                <div class="text-h6">Our Changing Planet</div>
-              </q-card-section>
-
-              <q-card-section class="q-pt-none text-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                dignissimos qui fugiat.
-              </q-card-section>
-              <q-card-section>
-                <q-btn text-primary no-caps flat dense size="lg" href="/">
-                  Explore page ->
-                </q-btn>
-              </q-card-section>
-            </q-card>
-            <q-card flat class="my-card">
-              <img src="./../../public/images/card-image3.png" />
-
-              <q-card-section>
-                <div class="text-h6">Our Changing Planet</div>
-              </q-card-section>
-
-              <q-card-section class="q-pt-none text-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                dignissimos qui fugiat.
-              </q-card-section>
-              <q-card-section>
-                <q-btn text-primary no-caps flat dense size="lg" href="/">
-                  Explore page ->
-                </q-btn>
-              </q-card-section>
-            </q-card>
+  <section class="main-section q-pa-xl">
+    <q-page-container>
+      <div class="container">
+        <div class="heading-text">
+          <div class="flex column justify-center text-center">
+            <p class="text-subtitle2 text-weight-light">Our Services</p>
+            <p class="text-h3 text-weight-light">
+              Handshake infographic mass market <br />
+              crowdfunding iteration.
+            </p>
           </div>
         </div>
-      </q-page-container>
-    </q-page>
+        <div class="feature-cards flex justify-between q-pt-xl q-ma-xl">
+          <q-card flat class="my-card">
+            <img src="./../../public/images/card-image1.png" />
+
+            <q-card-section>
+              <div class="text-h6">Our Changing Planet</div>
+            </q-card-section>
+
+            <q-card-section class="q-pt-none text-weight-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos qui fugiat.
+            </q-card-section>
+
+            <q-card-section>
+              <q-btn text-primary no-caps flat dense size="lg" href="/">
+                Explore page ->
+              </q-btn>
+            </q-card-section>
+          </q-card>
+
+          <q-card flat class="my-card">
+            <img src="./../../public/images/card-image2.png" />
+
+            <q-card-section>
+              <div class="text-h6">Our Changing Planet</div>
+            </q-card-section>
+
+            <q-card-section class="q-pt-none text-weight-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos qui fugiat.
+            </q-card-section>
+            <q-card-section>
+              <q-btn text-primary no-caps flat dense size="lg" href="/">
+                Explore page ->
+              </q-btn>
+            </q-card-section>
+          </q-card>
+          <q-card flat class="my-card">
+            <img src="./../../public/images/card-image3.png" />
+
+            <q-card-section>
+              <div class="text-h6">Our Changing Planet</div>
+            </q-card-section>
+
+            <q-card-section class="q-pt-none text-weight-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              dignissimos qui fugiat.
+            </q-card-section>
+            <q-card-section>
+              <q-btn text-primary no-caps flat dense size="lg" href="/">
+                Explore page ->
+              </q-btn>
+            </q-card-section>
+          </q-card>
+        </div>
+      </div>
+    </q-page-container>
+  </section>
+
+  <section class="connect-section q-pa-xl">
+    <q-page-container>
+      <div class="container flex column">
+        <div class="first flex no-wrap items-center" style="gap: 100px">
+          <img src="./../../public/images/connect1.png" alt="" />
+
+          <div class="text flex">
+            <p class="text-h4">
+              We connect our customers with the best, and help them keep up-and
+              stay open.
+            </p>
+          </div>
+        </div>
+        <div class="second"></div>
+      </div>
+    </q-page-container>
   </section>
 </template>
 
