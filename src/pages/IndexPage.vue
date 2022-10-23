@@ -75,68 +75,66 @@
         </div>
       </div>
     </q-header>
-    <q-page>
-      <q-page-container>
-        <div class="container flex row justify-between items-center" gap="93px">
-          <div class="left">
-            <div class="left-text">
-              <p class="primary-text text-white">
-                Save time by building <br />
-                fast with Boldo Template
-              </p>
-              <p class="secondary-text">
-                Funding handshake buyer business-to-business metrics iPad
-                partnership. <br />
-                First mover advantage innovator success deployment
-                non-disclosure.
-              </p>
-            </div>
-            <div class="left-buttons q-mt-xl">
-              <q-btn
-                dense
-                text-color="primary"
-                align="center"
-                rounded
-                no-caps
-                color="secondary"
-                label="Buy template"
-                class="q-pl-xl q-pr-xl q-pt-md q-pb-md"
-              />
 
-              <q-btn
-                dense
-                align="center"
-                outline
-                rounded
-                no-caps
-                color="white"
-                label="Explore"
-                class="q-ml-lg q-pl-xl q-pr-xl q-pt-md q-pb-md"
-              />
-            </div>
+    <q-page-container>
+      <div class="container flex row justify-between items-center" gap="93px">
+        <div class="left">
+          <div class="left-text">
+            <p class="primary-text text-white">
+              Save time by building <br />
+              fast with Boldo Template
+            </p>
+            <p class="secondary-text">
+              Funding handshake buyer business-to-business metrics iPad
+              partnership. <br />
+              First mover advantage innovator success deployment non-disclosure.
+            </p>
           </div>
-          <div class="right">
-            <q-img
-              src="./../../public/images/logo/hero-graphics.png"
-              alt=""
-              width="480px"
+          <div class="left-buttons q-mt-xl">
+            <q-btn
+              dense
+              text-color="primary"
+              align="center"
+              rounded
+              no-caps
+              color="secondary"
+              label="Buy template"
+              class="q-pl-xl q-pr-xl q-pt-md q-pb-md"
+            />
+
+            <q-btn
+              dense
+              align="center"
+              outline
+              rounded
+              no-caps
+              color="white"
+              label="Explore"
+              class="q-ml-lg q-pl-xl q-pr-xl q-pt-md q-pb-md"
             />
           </div>
         </div>
-
-        <div
-          class="sponsors container flex q-mt-xl q-pt-xl q-pb-xl justify-center items-center no-wrap"
-          width="100%"
-        >
-          <img src="./../../public/images/logo/Logo.png" href="" />
-          <img src="./../../public/images/logo/Presto-logo.png" />
-          <img src="./../../public/images/logo/Logo.png" href="" />
-          <img src="./../../public/images/logo/Presto-logo.png" />
-          <img src="./../../public/images/logo/Logo.png" href="" />
-          <img src="./../../public/images/logo/Presto-logo.png" />
+        <div class="right">
+          <q-img
+            src="./../../public/images/logo/hero-graphics.png"
+            alt=""
+            width="480px"
+          />
         </div>
-      </q-page-container>
-    </q-page>
+      </div>
+
+      <div
+        class="sponsors container flex q-mt-xl q-pt-xl q-pb-xl justify-center items-center no-wrap"
+        width="100%"
+      >
+        <img src="./../../public/images/logo/Logo.png" href="" />
+        <img src="./../../public/images/logo/Presto-logo.png" />
+        <img src="./../../public/images/logo/Logo.png" href="" />
+        <img src="./../../public/images/logo/Presto-logo.png" />
+        <img src="./../../public/images/logo/Logo.png" href="" />
+        <img src="./../../public/images/logo/Presto-logo.png" />
+      </div>
+    </q-page-container>
   </section>
 
   <section class="main-section">
@@ -211,7 +209,6 @@
       </q-page-container>
     </q-page>
   </section>
-  <q-separator></q-separator>
 </template>
 
 <script>
@@ -225,6 +222,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.q-page {
+  height: 100vh !important;
+}
 .q-card__section span.q-btn__content {
   color: $primary;
 }
