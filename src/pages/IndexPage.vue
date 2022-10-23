@@ -210,15 +210,88 @@
 
   <section class="connect-section q-pa-xl">
     <q-page-container>
-      <div class="container flex column">
-        <div class="first flex no-wrap items-center" style="gap: 100px">
+      <div class="container flex column q-pa-xl">
+        <div class="first flex no-wrap items-center" style="gap: 150px">
           <img src="./../../public/images/connect1.png" alt="" />
 
           <div class="text flex">
-            <p class="text-h4">
+            <p class="text-h4 text-weight-light q-pb-lg">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </p>
+            <div
+              class="text-h6 text-weight-light text-items flex column"
+              style="gap: 15px"
+            >
+              <div class="flex items-center" style="gap: 20px">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="18" cy="18" r="18" fill="#0A2640" />
+                  <path
+                    d="M26 12L15 23L10 18"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>We connect our customers with the best.</span>
+              </div>
+              <div class="flex items-center" style="gap: 20px">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="18" cy="18" r="18" fill="#0A2640" />
+                  <path
+                    d="M26 12L15 23L10 18"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Advisor success customer launch party.</span>
+              </div>
+              <div class="flex items-center q-pb-xl" style="gap: 20px">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 36 36"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="18" cy="18" r="18" fill="#0A2640" />
+                  <path
+                    d="M26 12L15 23L10 18"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Business-to-consumer long tail.</span>
+              </div>
+            </div>
+
+            <q-btn
+              dense
+              flat
+              no-caps
+              rounded
+              class="cta-btn bg-primary text-white q-pa-md q-pl-xl q-pr-xl"
+              size="md"
+              label="Start now"
+            >
+            </q-btn>
           </div>
         </div>
         <div class="second"></div>
@@ -238,6 +311,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.cta-btn {
+  width: 160px !important;
+}
 .q-page {
   height: 100vh !important;
 }
