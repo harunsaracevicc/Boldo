@@ -211,13 +211,13 @@
   <section class="connect-section q-pa-xl">
     <q-page-container>
       <div class="container flex column q-pa-xl">
-        <div class="first flex no-wrap items-center" style="gap: 150px">
+        <div class="first row no-wrap items-center" style="gap: 150px">
           <img src="./../../public/images/connect1.png" alt="" />
 
           <div class="text flex">
             <p class="text-h4 text-weight-light q-pb-lg">
-              We connect our customers with the best, and help them keep up-and
-              stay open.
+              We connect our customers <br />
+              with the best, and help them keep up-and stay open.
             </p>
             <div
               class="text-h6 text-weight-light text-items flex column"
@@ -294,6 +294,190 @@
             </q-btn>
           </div>
         </div>
+      </div>
+      <div class="container flex q-pa-xl">
+        <div class="first row reverse no-wrap items-center" style="gap: 150px">
+          <img src="./../../public/images/connect2.png" alt="" />
+
+          <div class="text flex">
+            <p
+              class="text-h4 text-weight-light q-pb-lg"
+              style="line-height: 3.5rem"
+            >
+              We connect our customers <br />
+              with the best, and help them keep up-and stay open.
+            </p>
+            <div class="text-h6 text-items flex column" style="gap: 25px">
+              <div
+                class="square flex text-weight-light items-center bg-primary q-pr-md q-pl-md q-pt-sm q-pb-sm"
+                style="gap: 20px"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.24 14.24C23.3658 13.1142 23.9983 11.5872 23.9983 9.99504C23.9983 8.40285 23.3658 6.87588 22.24 5.75004C21.1142 4.62419 19.5872 3.9917 17.995 3.9917C16.4028 3.9917 14.8758 4.62419 13.75 5.75004L7 12.5V21H15.5L22.24 14.24Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M18 10L4 24"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 17H11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span class="text-white" style="font-size: 14px"
+                  >We connect our customers with the best.</span
+                >
+              </div>
+
+              <div
+                class="flex items-center q-pr-md q-pl-md q-pt-sm q-pb-sm"
+                style="gap: 20px"
+              >
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_62_539)">
+                    <path
+                      d="M2.77502 13.6543C2.77502 13.6543 6.77502 5.6543 13.775 5.6543C20.775 5.6543 24.775 13.6543 24.775 13.6543C24.775 13.6543 20.775 21.6543 13.775 21.6543C6.77502 21.6543 2.77502 13.6543 2.77502 13.6543Z"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M13.775 16.6543C15.4319 16.6543 16.775 15.3112 16.775 13.6543C16.775 11.9974 15.4319 10.6543 13.775 10.6543C12.1182 10.6543 10.775 11.9974 10.775 13.6543C10.775 15.3112 12.1182 16.6543 13.775 16.6543Z"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_62_539">
+                      <rect
+                        width="24"
+                        height="24"
+                        fill="white"
+                        transform="translate(1.77502 1.6543)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="text-primary" style="font-size: 14px"
+                  >Advisor success customer launch party.</span
+                >
+              </div>
+
+              <div
+                class="flex items-center q-pr-md q-pl-md q-pt-sm q-pb-sm"
+                style="gap: 20px"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_62_578)">
+                    <path
+                      d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1V3"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 21V23"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.22 4.21997L5.64 5.63997"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.36 18.3601L19.78 19.7801"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 12H3"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M21 12H23"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.22 19.7801L5.64 18.3601"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.36 5.63997L19.78 4.21997"
+                      stroke="#0A2640"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_62_578">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="text-primary" style="font-size: 14px"
+                  >Business-to-consumer long tail.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="second"></div>
       </div>
     </q-page-container>
@@ -311,6 +495,13 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+.square {
+  border-radius: 5px;
+  width: 450px;
+}
+.first img {
+  width: 450px;
+}
 .cta-btn {
   width: 160px !important;
 }
